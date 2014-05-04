@@ -1,0 +1,22 @@
+{
+    "name": "dreick/zd-layouts",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/Dreick/ZdLayouts",
+    "authors": [
+        {
+            "name": "Grigory Nalimov"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
